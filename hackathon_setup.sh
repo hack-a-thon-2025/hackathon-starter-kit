@@ -72,6 +72,21 @@ else
     echo "✅ ~/.gemini/.env already exists."
 fi
 
+if [ ! -f ~/.gemini/settings.json ]; then 
+    cat > ~/.gemini/settings.json <<EOF
+{
+    "general.checkpointing.enabled" : "true",
+    "ide": {
+        "hasSeenNudge": true
+    },
+    "security": {
+        "auth": {
+            "selectedType": "gemini-api-key"
+        }
+    }    
+}
+EOF
+
 echo "🔍 Checking for VS Code (code command)..."
 if command -v code &> /dev/null; then
     echo "✅ VS Code found."

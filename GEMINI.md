@@ -26,10 +26,9 @@ The primary entry point for this project is the `hackathon_setup.sh` script.
     ./hackathon_setup.sh
     ```
 
-The script will then proceed to install all the necessary tools. The `HACKATHON_SETUP.md` file contains more detailed, step-by-step instructions for participants.
+The script will then proceed to install all the necessary tools. The `README.md` file contains more detailed, step-by-step instructions for participants.
 
 ## 📂 Key Files
 
 *   **`hackathon_setup.sh`**: The main executable script that performs the environment setup. It installs all the tools and creates the necessary configuration files.
-*   **`HACKATHON_SETUP.md`**: A detailed instructional guide for hackathon participants, explaining how to prepare their system, configure API keys, and run the setup script.
-*   **`README.md`**: A minimal readme file for the project.
+*   **`README.md`**: The primary guide for hackathon participants, containing detailed setup instructions, tool descriptions, and a 'Gemini Tips' section with useful slash commands.
