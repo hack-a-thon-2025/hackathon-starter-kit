@@ -1,5 +1,10 @@
 # 🚀 Hackathon Setup Guide
 
+NOTE: To push the repo after Terraform stamps it out.
+```
+git pull origin main --allow-unrelated-histories
+```
+
 Welcome to the **Hackathon Developer Environment Setup Guide** for Windows (Git Bash).  
 This ensures your system is ready with all required tools before the event starts — so you can code, not configure.
 
