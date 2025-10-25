@@ -44,7 +44,7 @@ choco install nodejs -y  || echo "⚠️ nodejs install failed. Skipping..."
 choco install python -y  || echo "⚠️ python install failed. Skipping..."
 choco install awscli -y  || echo "⚠️ awscli install failed. Skipping..."
 choco install vscode -y  || echo "⚠️ vscode install failed. Skipping..."
-choco install  pycharm-community -y  || echo "⚠️  pycharm-community install failed. Skipping..."
+choco install pycharm-community -y  || echo "⚠️  pycharm-community install failed. Skipping..."
 
 # Ensure Git Bash is set as default terminal for VSCode
 # echo "Configuring Git Bash for VSCode..."
@@ -86,6 +86,7 @@ if [ ! -f ~/.gemini/settings.json ]; then
     }    
 }
 EOF
+fi
 
 echo "🔍 Checking for VS Code (code command)..."
 if command -v code &> /dev/null; then
